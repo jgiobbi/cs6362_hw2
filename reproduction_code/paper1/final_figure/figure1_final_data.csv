@@ -1,0 +1,619 @@
+panel_bc: model,p,n_seeds,slowdown_mean,slowdown_std,test_err_mean,test_err_std,note
+inception,0.0,5,1.0,0.0,0.136,0.0026795522013948587,0
+inception,0.4,5,2.08996336996337,0.10936645685080415,0.44231999999999994,0.015048986676849696,0
+inception,0.8,5,2.748571428571428,0.14901034069034622,0.78886,0.006105571226347299,0
+inception,1.0,5,3.2494505494505495,0.18130203053749758,0.8989800000000001,0.0035905431344018116,0
+alexnet,0.0,5,1.0,0.0,0.22841999999999998,0.0031379929891572384,0
+alexnet,0.4,5,1.6957309941520466,0.04954462446051935,0.48976,0.007073400879350723,0
+alexnet,0.8,5,2.154327485380117,0.17029978777101412,0.7889200000000001,0.005676002114164517,0
+alexnet,1.0,5,2.288771929824562,0.15262508108325806,0.9038600000000001,0.002339444378479648,0
+alexnet,0.2,1,1.588235294117647,,0.3557,,round1 single seed
+alexnet,0.6,1,2.0,,0.6412,,round1 single seed
+mlp,0.0,5,1.0,0.0,0.48538,0.0013590437814875761,0
+mlp,0.4,5,1.629032258064516,0.02386580766482202,0.6715,0.0030471297970384977,0
+mlp,0.8,5,1.8868951612903224,0.01632317630877927,0.83112,0.004790302704422755,0
+mlp,1.0,5,1.95625,0.03563048203434806,0.8994,0.0013838352503097947,0
+mlp,0.2,1,1.375,,0.5892,,round1 single seed
+mlp,0.6,1,1.78125,,0.7505,,round1 single seed
+
+panel_a: curve,source,step,mean_loss
+true labels,round1,250,1.4398223876953125
+true labels,round1,500,0.9961300659179687
+true labels,round1,750,0.80426416015625
+true labels,round1,1000,0.663369873046875
+true labels,round1,1250,0.5904518432617187
+true labels,round1,1500,0.5084357299804687
+true labels,round1,1750,0.455324462890625
+true labels,round1,2000,0.4128026733398438
+true labels,round1,2250,0.35485369873046874
+true labels,round1,2500,0.3137274169921875
+true labels,round1,2750,0.3030229187011719
+true labels,round1,3000,0.2232594757080078
+true labels,round1,3250,0.21444866943359375
+true labels,round1,3500,0.1942261962890625
+true labels,round1,3750,0.1272164001464844
+true labels,round1,4000,0.1284464569091797
+true labels,round1,4250,0.09284819030761719
+true labels,round1,4500,0.07119979858398437
+true labels,round1,4750,0.06409271240234375
+true labels,round1,5000,0.04816294860839844
+true labels,round1,5250,0.03586948776245117
+true labels,round1,5500,0.036704166412353516
+true labels,round1,5750,0.015628674507141112
+true labels,round1,6000,0.015897650718688965
+true labels,round1,6250,0.008446266174316406
+true labels,round1,6500,0.004232405185699463
+true labels,round1,6750,0.002699226140975952
+true labels,round1,7000,0.0016282074451446533
+true labels,round1,7250,0.0012609113454818725
+true labels,round1,7500,0.0011682344675064088
+true labels,round1,7750,0.0009144812226295472
+true labels,round1,8000,0.0008148888349533081
+true labels,round1,8250,0.000720771312713623
+true labels,round1,8500,0.0006782898306846619
+true labels,round1,8750,0.0005674409866333008
+true labels,round1,9000,0.0005655556917190552
+true labels,round1,9250,0.0005420146584510803
+true labels,round1,9500,0.0005034921169281006
+true labels,round1,9750,0.0004679325819015503
+true labels,round1,10000,0.00040476378798484804
+true labels,round1,10250,0.0005784946084022522
+true labels,round1,10500,0.00042960324883461
+true labels,round1,10750,0.00040841352939605715
+true labels,round1,11000,0.00038855826854705813
+true labels,round1,11250,0.0004149351418018341
+true labels,round1,11500,0.0003563309609889984
+true labels,round1,11750,0.00035447916388511657
+true labels,round1,12000,0.0003281610310077667
+true labels,round1,12250,0.0003448263108730316
+true labels,round1,12500,0.00030180802941322325
+true labels,round1,12750,0.00029364076256752016
+true labels,round1,13000,0.0002805745899677277
+true labels,round1,13250,0.00029967930912971495
+true labels,round1,13500,0.0003387962579727173
+true labels,round1,13750,0.00028722524642944337
+true labels,round1,14000,0.0002878321409225464
+true labels,round1,14250,0.0002848263382911682
+true labels,round1,14500,0.0003154298365116119
+true labels,round1,14750,0.000268040657043457
+true labels,round1,15000,0.0002929899096488953
+true labels,round1,15250,0.00025148630142211913
+true labels,round1,15500,0.0002595229744911194
+true labels,round1,15750,0.00024676644802093506
+true labels,round1,16000,0.0002759614288806915
+true labels,round1,16250,0.00024410313367843628
+true labels,round1,16500,0.00023939096927642821
+true labels,round1,16750,0.000240508109331131
+true labels,round1,17000,0.00023657743632793425
+true labels,round1,17250,0.0002546377182006836
+true labels,round1,17500,0.00025388309359550477
+true labels,round1,17750,0.00023345001041889191
+true labels,round1,18000,0.00030750533938407896
+true labels,round1,18250,0.00022761550545692444
+true labels,round1,18500,0.00022655075788497925
+true labels,round1,18750,0.00024649910628795626
+true labels,round1,19000,0.0002462827861309052
+true labels,round1,19250,0.00022544631361961365
+true labels,round1,19500,0.00023874996602535247
+true labels,round1,19750,0.00022147125005722045
+true labels,round1,20000,0.00023311077058315278
+true labels,round1,20250,0.00021726593375205993
+true labels,round1,20500,0.00022755925357341767
+true labels,round1,20750,0.0002122524380683899
+true labels,round1,21000,0.00022575588524341583
+true labels,round1,21250,0.00022892773151397705
+true labels,round1,21500,0.00023539113998413086
+true labels,round1,21750,0.00020672106742858888
+true labels,round1,22000,0.00020423611998558045
+true labels,round1,22250,0.00021363553404808044
+true labels,round1,22500,0.00020850066840648652
+true labels,round1,22750,0.00021996207535266877
+true labels,round1,23000,0.0001972973495721817
+true labels,round1,23250,0.00022381170094013214
+true labels,round1,23500,0.00020008571445941925
+true labels,round1,23750,0.00019596490263938904
+true labels,round1,24000,0.00020253309607505798
+true labels,round1,24250,0.00020467858016490935
+true labels,round1,24500,0.00020585840940475465
+true labels,round1,24750,0.0002009190171957016
+true labels,round1,25000,0.00020486988127231597
+random labels,round1,250,2.327852783203125
+random labels,round1,500,2.305099853515625
+random labels,round1,750,2.304614990234375
+random labels,round1,1000,2.303900146484375
+random labels,round1,1250,2.303380615234375
+random labels,round1,1500,2.303901611328125
+random labels,round1,1750,2.3037744140625
+random labels,round1,2000,2.303486083984375
+random labels,round1,2250,2.30307275390625
+random labels,round1,2500,2.30273583984375
+random labels,round1,2750,2.302152587890625
+random labels,round1,3000,2.302146240234375
+random labels,round1,3250,2.30081298828125
+random labels,round1,3500,2.3017978515625
+random labels,round1,3750,2.300391357421875
+random labels,round1,4000,2.299619384765625
+random labels,round1,4250,2.299223876953125
+random labels,round1,4500,2.298107666015625
+random labels,round1,4750,2.297660888671875
+random labels,round1,5000,2.296771728515625
+random labels,round1,5250,2.293803466796875
+random labels,round1,5500,2.2927451171875
+random labels,round1,5750,2.2908623046875
+random labels,round1,6000,2.287220458984375
+random labels,round1,6250,2.28762451171875
+random labels,round1,6500,2.279733642578125
+random labels,round1,6750,2.274943603515625
+random labels,round1,7000,2.276057373046875
+random labels,round1,7250,2.264072509765625
+random labels,round1,7500,2.257265869140625
+random labels,round1,7750,2.253876708984375
+random labels,round1,8000,2.236463134765625
+random labels,round1,8250,2.231048828125
+random labels,round1,8500,2.212003662109375
+random labels,round1,8750,2.19022216796875
+random labels,round1,9000,2.1874404296875
+random labels,round1,9250,2.135678955078125
+random labels,round1,9500,2.110733154296875
+random labels,round1,9750,2.1042529296875
+random labels,round1,10000,2.0104295654296873
+random labels,round1,10250,1.984152587890625
+random labels,round1,10500,1.962845947265625
+random labels,round1,10750,1.82446044921875
+random labels,round1,11000,1.8215277099609375
+random labels,round1,11250,1.7225960693359375
+random labels,round1,11500,1.5845828857421875
+random labels,round1,11750,1.6245093994140625
+random labels,round1,12000,1.3797928466796876
+random labels,round1,12250,1.3306866455078126
+random labels,round1,12500,1.3374210205078125
+random labels,round1,12750,1.05878759765625
+random labels,round1,13000,1.08679931640625
+random labels,round1,13250,0.9645079345703125
+random labels,round1,13500,0.80006396484375
+random labels,round1,13750,0.8202416381835937
+random labels,round1,14000,0.6588856811523438
+random labels,round1,14250,0.57706640625
+random labels,round1,14500,0.5756516723632813
+random labels,round1,14750,0.419056396484375
+random labels,round1,15000,0.41063092041015625
+random labels,round1,15250,0.3806370544433594
+random labels,round1,15500,0.243522216796875
+random labels,round1,15750,0.23681214904785156
+random labels,round1,16000,0.18273936462402343
+random labels,round1,16250,0.13375422668457032
+random labels,round1,16500,0.11082205963134766
+random labels,round1,16750,0.06035015106201172
+random labels,round1,17000,0.03939731216430664
+random labels,round1,17250,0.023854507446289062
+random labels,round1,17500,0.010993120193481445
+random labels,round1,17750,0.008385963439941406
+random labels,round1,18000,0.0078052692413330075
+random labels,round1,18250,0.004314454555511474
+random labels,round1,18500,0.0036193177700042725
+random labels,round1,18750,0.0035979654788970946
+random labels,round1,19000,0.0024326181411743163
+random labels,round1,19250,0.003165666341781616
+random labels,round1,19500,0.002129273176193237
+random labels,round1,19750,0.0023104918003082277
+random labels,round1,20000,0.0018469140529632569
+random labels,round1,20250,0.002041560649871826
+random labels,round1,20500,0.0015488599538803101
+random labels,round1,20750,0.0019008698463439941
+random labels,round1,21000,0.0016639205217361451
+random labels,round1,21250,0.0013271853923797607
+random labels,round1,21500,0.0014859458208084106
+random labels,round1,21750,0.001327614426612854
+random labels,round1,22000,0.0013579803705215455
+random labels,round1,22250,0.0012367690801620484
+random labels,round1,22500,0.001289969563484192
+random labels,round1,22750,0.0012066375017166138
+random labels,round1,23000,0.0011878076791763306
+random labels,round1,23250,0.0012066149711608886
+random labels,round1,23500,0.001133131980895996
+random labels,round1,23750,0.0010511897802352906
+random labels,round1,24000,0.0010401890277862548
+random labels,round1,24250,0.0010381673574447632
+random labels,round1,24500,0.0010138483047485351
+random labels,round1,24750,0.0010777634382247924
+random labels,round1,25000,0.0009888778924942016
+shuffled pixels,round1,250,1.92722705078125
+shuffled pixels,round1,500,1.714567626953125
+shuffled pixels,round1,750,1.614078369140625
+shuffled pixels,round1,1000,1.497888916015625
+shuffled pixels,round1,1250,1.4314967041015625
+shuffled pixels,round1,1500,1.375083740234375
+shuffled pixels,round1,1750,1.3012066650390626
+shuffled pixels,round1,2000,1.2548148193359374
+shuffled pixels,round1,2250,1.191933837890625
+shuffled pixels,round1,2500,1.1179442138671876
+shuffled pixels,round1,2750,1.107987060546875
+shuffled pixels,round1,3000,0.9978900146484375
+shuffled pixels,round1,3250,0.9537645874023437
+shuffled pixels,round1,3500,0.9436546630859375
+shuffled pixels,round1,3750,0.8177833251953125
+shuffled pixels,round1,4000,0.7896238403320313
+shuffled pixels,round1,4250,0.7507732543945312
+shuffled pixels,round1,4500,0.631447998046875
+shuffled pixels,round1,4750,0.6425249633789063
+shuffled pixels,round1,5000,0.5506434936523438
+shuffled pixels,round1,5250,0.45850311279296874
+shuffled pixels,round1,5500,0.4866201171875
+shuffled pixels,round1,5750,0.3629718017578125
+shuffled pixels,round1,6000,0.3418734436035156
+shuffled pixels,round1,6250,0.3304493103027344
+shuffled pixels,round1,6500,0.21276095581054688
+shuffled pixels,round1,6750,0.2468000030517578
+shuffled pixels,round1,7000,0.1921997528076172
+shuffled pixels,round1,7250,0.15370330810546876
+shuffled pixels,round1,7500,0.16663885498046874
+shuffled pixels,round1,7750,0.11195115661621094
+shuffled pixels,round1,8000,0.09511891937255859
+shuffled pixels,round1,8250,0.07734913635253907
+shuffled pixels,round1,8500,0.042808620452880856
+shuffled pixels,round1,8750,0.034087390899658204
+shuffled pixels,round1,9000,0.020240917205810546
+shuffled pixels,round1,9250,0.008954941749572754
+shuffled pixels,round1,9500,0.006880565166473389
+shuffled pixels,round1,9750,0.003921934366226196
+shuffled pixels,round1,10000,0.0022021074295043947
+shuffled pixels,round1,10250,0.0015606698989868164
+shuffled pixels,round1,10500,0.0012334717512130738
+shuffled pixels,round1,10750,0.0010054850578308106
+shuffled pixels,round1,11000,0.0008786465525627136
+shuffled pixels,round1,11250,0.0008950260281562805
+shuffled pixels,round1,11500,0.0007440881133079529
+shuffled pixels,round1,11750,0.0006635523438453674
+shuffled pixels,round1,12000,0.0005891278982162475
+shuffled pixels,round1,12250,0.0006381140351295471
+shuffled pixels,round1,12500,0.0005723222494125366
+shuffled pixels,round1,12750,0.00048282331228256223
+shuffled pixels,round1,13000,0.0005104188919067382
+shuffled pixels,round1,13250,0.0004955143332481385
+shuffled pixels,round1,13500,0.0005057687163352966
+shuffled pixels,round1,13750,0.0004508605897426605
+shuffled pixels,round1,14000,0.0004147234857082367
+shuffled pixels,round1,14250,0.00044637686014175416
+shuffled pixels,round1,14500,0.00040840667486190794
+shuffled pixels,round1,14750,0.00036385127902030946
+shuffled pixels,round1,15000,0.0004047326743602753
+shuffled pixels,round1,15250,0.00034831297397613524
+shuffled pixels,round1,15500,0.00035695049166679384
+shuffled pixels,round1,15750,0.00033454060554504394
+shuffled pixels,round1,16000,0.000337346613407135
+shuffled pixels,round1,16250,0.00031406715512275694
+shuffled pixels,round1,16500,0.00035021665692329406
+shuffled pixels,round1,16750,0.0003192501366138458
+shuffled pixels,round1,17000,0.0003102424740791321
+shuffled pixels,round1,17250,0.0002834661304950714
+shuffled pixels,round1,17500,0.00028292059898376464
+shuffled pixels,round1,17750,0.00031387516856193543
+shuffled pixels,round1,18000,0.00028137770295143125
+shuffled pixels,round1,18250,0.00033894625306129454
+shuffled pixels,round1,18500,0.0002691015601158142
+shuffled pixels,round1,18750,0.00028002753853797915
+shuffled pixels,round1,19000,0.0002726161777973175
+shuffled pixels,round1,19250,0.0002723783552646637
+shuffled pixels,round1,19500,0.0002629443109035492
+shuffled pixels,round1,19750,0.00026414942741394043
+shuffled pixels,round1,20000,0.0002836008071899414
+shuffled pixels,round1,20250,0.00027058127522468564
+shuffled pixels,round1,20500,0.0002689657509326935
+shuffled pixels,round1,20750,0.00026271110773086546
+shuffled pixels,round1,21000,0.00028185436129570007
+shuffled pixels,round1,21250,0.0002466420829296112
+shuffled pixels,round1,21500,0.000307835191488266
+shuffled pixels,round1,21750,0.00026008614897727965
+shuffled pixels,round1,22000,0.0002874543070793152
+shuffled pixels,round1,22250,0.00026304274797439575
+shuffled pixels,round1,22500,0.0002689088582992554
+shuffled pixels,round1,22750,0.0002573277950286865
+shuffled pixels,round1,23000,0.00028332492709159853
+shuffled pixels,round1,23250,0.0002697268128395081
+shuffled pixels,round1,23500,0.00025146663188934325
+shuffled pixels,round1,23750,0.00022729365527629852
+shuffled pixels,round1,24000,0.0002403608411550522
+shuffled pixels,round1,24250,0.0002290300577878952
+shuffled pixels,round1,24500,0.00024410097301006317
+shuffled pixels,round1,24750,0.0002479318380355835
+shuffled pixels,round1,25000,0.0002299949824810028
+random pixels (flattened C*H*W perm.),mean of 2 seeds,250,2.2803546447753904
+random pixels (flattened C*H*W perm.),mean of 2 seeds,500,2.2197010192871094
+random pixels (flattened C*H*W perm.),mean of 2 seeds,750,2.203212921142578
+random pixels (flattened C*H*W perm.),mean of 2 seeds,1000,2.188669509887695
+random pixels (flattened C*H*W perm.),mean of 2 seeds,1250,2.1790428009033205
+random pixels (flattened C*H*W perm.),mean of 2 seeds,1500,2.1714517669677735
+random pixels (flattened C*H*W perm.),mean of 2 seeds,1750,2.1570207519531253
+random pixels (flattened C*H*W perm.),mean of 2 seeds,2000,2.1500753173828127
+random pixels (flattened C*H*W perm.),mean of 2 seeds,2250,2.137518997192383
+random pixels (flattened C*H*W perm.),mean of 2 seeds,2500,2.1216849212646487
+random pixels (flattened C*H*W perm.),mean of 2 seeds,2750,2.121272583007812
+random pixels (flattened C*H*W perm.),mean of 2 seeds,3000,2.091359573364258
+random pixels (flattened C*H*W perm.),mean of 2 seeds,3250,2.0699451904296877
+random pixels (flattened C*H*W perm.),mean of 2 seeds,3500,2.073681091308594
+random pixels (flattened C*H*W perm.),mean of 2 seeds,3750,2.0257244567871093
+random pixels (flattened C*H*W perm.),mean of 2 seeds,4000,2.0021726989746096
+random pixels (flattened C*H*W perm.),mean of 2 seeds,4250,1.9862439422607423
+random pixels (flattened C*H*W perm.),mean of 2 seeds,4500,1.9232255859375003
+random pixels (flattened C*H*W perm.),mean of 2 seeds,4750,1.9049300384521484
+random pixels (flattened C*H*W perm.),mean of 2 seeds,5000,1.862731430053711
+random pixels (flattened C*H*W perm.),mean of 2 seeds,5250,1.7823657684326175
+random pixels (flattened C*H*W perm.),mean of 2 seeds,5500,1.7882098999023437
+random pixels (flattened C*H*W perm.),mean of 2 seeds,5750,1.6797540893554688
+random pixels (flattened C*H*W perm.),mean of 2 seeds,6000,1.6173650512695315
+random pixels (flattened C*H*W perm.),mean of 2 seeds,6250,1.6364469299316406
+random pixels (flattened C*H*W perm.),mean of 2 seeds,6500,1.4486485137939453
+random pixels (flattened C*H*W perm.),mean of 2 seeds,6750,1.435350959777832
+random pixels (flattened C*H*W perm.),mean of 2 seeds,7000,1.4134476013183592
+random pixels (flattened C*H*W perm.),mean of 2 seeds,7250,1.2311242828369142
+random pixels (flattened C*H*W perm.),mean of 2 seeds,7500,1.2458420639038086
+random pixels (flattened C*H*W perm.),mean of 2 seeds,7750,1.1433198318481446
+random pixels (flattened C*H*W perm.),mean of 2 seeds,8000,1.0093508834838867
+random pixels (flattened C*H*W perm.),mean of 2 seeds,8250,1.049379981994629
+random pixels (flattened C*H*W perm.),mean of 2 seeds,8500,0.8633167419433594
+random pixels (flattened C*H*W perm.),mean of 2 seeds,8750,0.814058952331543
+random pixels (flattened C*H*W perm.),mean of 2 seeds,9000,0.8108476409912109
+random pixels (flattened C*H*W perm.),mean of 2 seeds,9250,0.6074286460876465
+random pixels (flattened C*H*W perm.),mean of 2 seeds,9500,0.619470272064209
+random pixels (flattened C*H*W perm.),mean of 2 seeds,9750,0.5800896377563477
+random pixels (flattened C*H*W perm.),mean of 2 seeds,10000,0.443083251953125
+random pixels (flattened C*H*W perm.),mean of 2 seeds,10250,0.4483770484924316
+random pixels (flattened C*H*W perm.),mean of 2 seeds,10500,0.35610510635375975
+random pixels (flattened C*H*W perm.),mean of 2 seeds,10750,0.3062322311401367
+random pixels (flattened C*H*W perm.),mean of 2 seeds,11000,0.2957781925201416
+random pixels (flattened C*H*W perm.),mean of 2 seeds,11250,0.20510483169555666
+random pixels (flattened C*H*W perm.),mean of 2 seeds,11500,0.18663264179229735
+random pixels (flattened C*H*W perm.),mean of 2 seeds,11750,0.15267853832244874
+random pixels (flattened C*H*W perm.),mean of 2 seeds,12000,0.08717126417160034
+random pixels (flattened C*H*W perm.),mean of 2 seeds,12250,0.07917980289459228
+random pixels (flattened C*H*W perm.),mean of 2 seeds,12500,0.052006317138671876
+random pixels (flattened C*H*W perm.),mean of 2 seeds,12750,0.026436320066452027
+random pixels (flattened C*H*W perm.),mean of 2 seeds,13000,0.01715108823776245
+random pixels (flattened C*H*W perm.),mean of 2 seeds,13250,0.009480417668819428
+random pixels (flattened C*H*W perm.),mean of 2 seeds,13500,0.005497612893581391
+random pixels (flattened C*H*W perm.),mean of 2 seeds,13750,0.0039458744674921034
+random pixels (flattened C*H*W perm.),mean of 2 seeds,14000,0.002713422447443008
+random pixels (flattened C*H*W perm.),mean of 2 seeds,14250,0.0025598257184028623
+random pixels (flattened C*H*W perm.),mean of 2 seeds,14500,0.002157723993062973
+random pixels (flattened C*H*W perm.),mean of 2 seeds,14750,0.0017845625579357147
+random pixels (flattened C*H*W perm.),mean of 2 seeds,15000,0.001599870875477791
+random pixels (flattened C*H*W perm.),mean of 2 seeds,15250,0.0015926551669836044
+random pixels (flattened C*H*W perm.),mean of 2 seeds,15500,0.0013848569989204406
+random pixels (flattened C*H*W perm.),mean of 2 seeds,15750,0.0013415621221065524
+random pixels (flattened C*H*W perm.),mean of 2 seeds,16000,0.0012626000195741652
+random pixels (flattened C*H*W perm.),mean of 2 seeds,16250,0.0011692090705037116
+random pixels (flattened C*H*W perm.),mean of 2 seeds,16500,0.0011418423652648927
+random pixels (flattened C*H*W perm.),mean of 2 seeds,16750,0.0010842512920498848
+random pixels (flattened C*H*W perm.),mean of 2 seeds,17000,0.0010296225622296335
+random pixels (flattened C*H*W perm.),mean of 2 seeds,17250,0.0009929246455430984
+random pixels (flattened C*H*W perm.),mean of 2 seeds,17500,0.0009147903621196747
+random pixels (flattened C*H*W perm.),mean of 2 seeds,17750,0.0009250201433897019
+random pixels (flattened C*H*W perm.),mean of 2 seeds,18000,0.000905026875436306
+random pixels (flattened C*H*W perm.),mean of 2 seeds,18250,0.0008624158278107644
+random pixels (flattened C*H*W perm.),mean of 2 seeds,18500,0.0008298456519842147
+random pixels (flattened C*H*W perm.),mean of 2 seeds,18750,0.0008438386023044586
+random pixels (flattened C*H*W perm.),mean of 2 seeds,19000,0.0008254821002483368
+random pixels (flattened C*H*W perm.),mean of 2 seeds,19250,0.0008299465775489807
+random pixels (flattened C*H*W perm.),mean of 2 seeds,19500,0.0007716960683465004
+random pixels (flattened C*H*W perm.),mean of 2 seeds,19750,0.0007619879394769669
+random pixels (flattened C*H*W perm.),mean of 2 seeds,20000,0.0007603407949209214
+random pixels (flattened C*H*W perm.),mean of 2 seeds,20250,0.0007346587665379048
+random pixels (flattened C*H*W perm.),mean of 2 seeds,20500,0.0007120687663555146
+random pixels (flattened C*H*W perm.),mean of 2 seeds,20750,0.0007227198630571365
+random pixels (flattened C*H*W perm.),mean of 2 seeds,21000,0.0006756980642676353
+random pixels (flattened C*H*W perm.),mean of 2 seeds,21250,0.0006820344254374504
+random pixels (flattened C*H*W perm.),mean of 2 seeds,21500,0.0007000163830816746
+random pixels (flattened C*H*W perm.),mean of 2 seeds,21750,0.0006739872917532921
+random pixels (flattened C*H*W perm.),mean of 2 seeds,22000,0.0006690040640532971
+random pixels (flattened C*H*W perm.),mean of 2 seeds,22250,0.000655821468681097
+random pixels (flattened C*H*W perm.),mean of 2 seeds,22500,0.0006880853623151778
+random pixels (flattened C*H*W perm.),mean of 2 seeds,22750,0.000638003621250391
+random pixels (flattened C*H*W perm.),mean of 2 seeds,23000,0.0006405106782913208
+random pixels (flattened C*H*W perm.),mean of 2 seeds,23250,0.0006353084817528724
+random pixels (flattened C*H*W perm.),mean of 2 seeds,23500,0.0006058206297457219
+random pixels (flattened C*H*W perm.),mean of 2 seeds,23750,0.000590171817690134
+random pixels (flattened C*H*W perm.),mean of 2 seeds,24000,0.000613971434533596
+random pixels (flattened C*H*W perm.),mean of 2 seeds,24250,0.0006106403246521949
+random pixels (flattened C*H*W perm.),mean of 2 seeds,24500,0.0005942104533314706
+random pixels (flattened C*H*W perm.),mean of 2 seeds,24750,0.0005781675018370152
+random pixels (flattened C*H*W perm.),mean of 2 seeds,25000,0.0005799964889883996
+gaussian,mean of 2 seeds,250,2.3478443756103515
+gaussian,mean of 2 seeds,500,2.3076063079833986
+gaussian,mean of 2 seeds,750,2.3047345275878905
+gaussian,mean of 2 seeds,1000,2.3026347198486325
+gaussian,mean of 2 seeds,1250,2.3008025512695314
+gaussian,mean of 2 seeds,1500,2.301074935913086
+gaussian,mean of 2 seeds,1750,2.292405960083008
+gaussian,mean of 2 seeds,2000,2.287874114990234
+gaussian,mean of 2 seeds,2250,2.2844114532470705
+gaussian,mean of 2 seeds,2500,2.2625119781494143
+gaussian,mean of 2 seeds,2750,2.2629747009277343
+gaussian,mean of 2 seeds,3000,2.223050170898438
+gaussian,mean of 2 seeds,3250,2.1887471313476565
+gaussian,mean of 2 seeds,3500,2.196888381958008
+gaussian,mean of 2 seeds,3750,2.0931524047851564
+gaussian,mean of 2 seeds,4000,2.0559978332519533
+gaussian,mean of 2 seeds,4250,2.0358684844970703
+gaussian,mean of 2 seeds,4500,1.8804588928222654
+gaussian,mean of 2 seeds,4750,1.8476523895263672
+gaussian,mean of 2 seeds,5000,1.7625045776367188
+gaussian,mean of 2 seeds,5250,1.5833128356933595
+gaussian,mean of 2 seeds,5500,1.5961596069335937
+gaussian,mean of 2 seeds,5750,1.357142547607422
+gaussian,mean of 2 seeds,6000,1.2344678955078123
+gaussian,mean of 2 seeds,6250,1.283254150390625
+gaussian,mean of 2 seeds,6500,0.9255069961547852
+gaussian,mean of 2 seeds,6750,0.9077283210754394
+gaussian,mean of 2 seeds,7000,0.8582715530395508
+gaussian,mean of 2 seeds,7250,0.6035657501220704
+gaussian,mean of 2 seeds,7500,0.656596004486084
+gaussian,mean of 2 seeds,7750,0.4914538345336914
+gaussian,mean of 2 seeds,8000,0.403697940826416
+gaussian,mean of 2 seeds,8250,0.40418658828735354
+gaussian,mean of 2 seeds,8500,0.25917280006408694
+gaussian,mean of 2 seeds,8750,0.252629674911499
+gaussian,mean of 2 seeds,9000,0.2057079257965088
+gaussian,mean of 2 seeds,9250,0.1250777292251587
+gaussian,mean of 2 seeds,9500,0.12135130929946901
+gaussian,mean of 2 seeds,9750,0.08526884889602662
+gaussian,mean of 2 seeds,10000,0.04869179773330688
+gaussian,mean of 2 seeds,10250,0.0394747109413147
+gaussian,mean of 2 seeds,10500,0.01593624794483185
+gaussian,mean of 2 seeds,10750,0.007480064928531646
+gaussian,mean of 2 seeds,11000,0.0031783370375633234
+gaussian,mean of 2 seeds,11250,0.001585827238857746
+gaussian,mean of 2 seeds,11500,0.0011485320776700972
+gaussian,mean of 2 seeds,11750,0.0009584906548261642
+gaussian,mean of 2 seeds,12000,0.000786017507314682
+gaussian,mean of 2 seeds,12250,0.0007527345009148121
+gaussian,mean of 2 seeds,12500,0.0006904756799340248
+gaussian,mean of 2 seeds,12750,0.0006236513890326023
+gaussian,mean of 2 seeds,13000,0.0005606155432760716
+gaussian,mean of 2 seeds,13250,0.0005154478587210179
+gaussian,mean of 2 seeds,13500,0.0004853434674441814
+gaussian,mean of 2 seeds,13750,0.0004633750021457672
+gaussian,mean of 2 seeds,14000,0.0004527024179697037
+gaussian,mean of 2 seeds,14250,0.0004368565902113914
+gaussian,mean of 2 seeds,14500,0.00041881094872951507
+gaussian,mean of 2 seeds,14750,0.000411721933633089
+gaussian,mean of 2 seeds,15000,0.00040104793757200243
+gaussian,mean of 2 seeds,15250,0.0003826321847736836
+gaussian,mean of 2 seeds,15500,0.0003516975045204162
+gaussian,mean of 2 seeds,15750,0.000356916420161724
+gaussian,mean of 2 seeds,16000,0.00034770043194293974
+gaussian,mean of 2 seeds,16250,0.0003349965736269951
+gaussian,mean of 2 seeds,16500,0.00034357539005577565
+gaussian,mean of 2 seeds,16750,0.00032545232214033605
+gaussian,mean of 2 seeds,17000,0.0003165576141327619
+gaussian,mean of 2 seeds,17250,0.0003153902217745781
+gaussian,mean of 2 seeds,17500,0.00031046970747411256
+gaussian,mean of 2 seeds,17750,0.0003040331210941076
+gaussian,mean of 2 seeds,18000,0.0002858993634581566
+gaussian,mean of 2 seeds,18250,0.0002852776907384396
+gaussian,mean of 2 seeds,18500,0.00028084658458828925
+gaussian,mean of 2 seeds,18750,0.00028437727503478525
+gaussian,mean of 2 seeds,19000,0.0002907376475632191
+gaussian,mean of 2 seeds,19250,0.00028922986052930353
+gaussian,mean of 2 seeds,19500,0.00027048008143901826
+gaussian,mean of 2 seeds,19750,0.0002716209944337607
+gaussian,mean of 2 seeds,20000,0.00027067117579281325
+gaussian,mean of 2 seeds,20250,0.00026065355539321895
+gaussian,mean of 2 seeds,20500,0.00026145220734179024
+gaussian,mean of 2 seeds,20750,0.0002617213036864996
+gaussian,mean of 2 seeds,21000,0.00025615651346743107
+gaussian,mean of 2 seeds,21250,0.0002477599773555994
+gaussian,mean of 2 seeds,21500,0.00024768933653831484
+gaussian,mean of 2 seeds,21750,0.00024512958340346813
+gaussian,mean of 2 seeds,22000,0.0002492950018495321
+gaussian,mean of 2 seeds,22250,0.0002506311051547527
+gaussian,mean of 2 seeds,22500,0.0002379454914480448
+gaussian,mean of 2 seeds,22750,0.00023952258192002772
+gaussian,mean of 2 seeds,23000,0.00024083006009459495
+gaussian,mean of 2 seeds,23250,0.0002361629083752632
+gaussian,mean of 2 seeds,23500,0.000250985998660326
+gaussian,mean of 2 seeds,23750,0.00022449730150401592
+gaussian,mean of 2 seeds,24000,0.00023183416388928888
+gaussian,mean of 2 seeds,24250,0.00023447697795927523
+gaussian,mean of 2 seeds,24500,0.00023085844330489634
+gaussian,mean of 2 seeds,24750,0.00022391074337065221
+gaussian,mean of 2 seeds,25000,0.00022168939746916295
+random pixels (same perm. across channels),mean of 2 seeds,250,2.016791427612305
+random pixels (same perm. across channels),mean of 2 seeds,500,1.9039954681396485
+random pixels (same perm. across channels),mean of 2 seeds,750,1.8470357055664064
+random pixels (same perm. across channels),mean of 2 seeds,1000,1.7876991271972655
+random pixels (same perm. across channels),mean of 2 seeds,1250,1.7444679565429686
+random pixels (same perm. across channels),mean of 2 seeds,1500,1.7017476654052734
+random pixels (same perm. across channels),mean of 2 seeds,1750,1.6652458801269532
+random pixels (same perm. across channels),mean of 2 seeds,2000,1.6453350982666015
+random pixels (same perm. across channels),mean of 2 seeds,2250,1.625892807006836
+random pixels (same perm. across channels),mean of 2 seeds,2500,1.5982714691162108
+random pixels (same perm. across channels),mean of 2 seeds,2750,1.5803641052246094
+random pixels (same perm. across channels),mean of 2 seeds,3000,1.5585858917236328
+random pixels (same perm. across channels),mean of 2 seeds,3250,1.542587173461914
+random pixels (same perm. across channels),mean of 2 seeds,3500,1.5335995330810546
+random pixels (same perm. across channels),mean of 2 seeds,3750,1.501899169921875
+random pixels (same perm. across channels),mean of 2 seeds,4000,1.4916642913818359
+random pixels (same perm. across channels),mean of 2 seeds,4250,1.4794651031494142
+random pixels (same perm. across channels),mean of 2 seeds,4500,1.4541457519531251
+random pixels (same perm. across channels),mean of 2 seeds,4750,1.4447142181396484
+random pixels (same perm. across channels),mean of 2 seeds,5000,1.4222769165039062
+random pixels (same perm. across channels),mean of 2 seeds,5250,1.3972337341308594
+random pixels (same perm. across channels),mean of 2 seeds,5500,1.392749557495117
+random pixels (same perm. across channels),mean of 2 seeds,5750,1.3480900573730468
+random pixels (same perm. across channels),mean of 2 seeds,6000,1.3322857360839846
+random pixels (same perm. across channels),mean of 2 seeds,6250,1.3291162872314453
+random pixels (same perm. across channels),mean of 2 seeds,6500,1.2651101455688476
+random pixels (same perm. across channels),mean of 2 seeds,6750,1.2475457611083982
+random pixels (same perm. across channels),mean of 2 seeds,7000,1.2372473526000975
+random pixels (same perm. across channels),mean of 2 seeds,7250,1.1637208480834962
+random pixels (same perm. across channels),mean of 2 seeds,7500,1.1627146682739258
+random pixels (same perm. across channels),mean of 2 seeds,7750,1.1264194869995117
+random pixels (same perm. across channels),mean of 2 seeds,8000,1.0627423553466797
+random pixels (same perm. across channels),mean of 2 seeds,8250,1.0656846771240234
+random pixels (same perm. across channels),mean of 2 seeds,8500,0.9881822280883789
+random pixels (same perm. across channels),mean of 2 seeds,8750,0.9487884140014649
+random pixels (same perm. across channels),mean of 2 seeds,9000,0.9557247238159179
+random pixels (same perm. across channels),mean of 2 seeds,9250,0.8356799621582032
+random pixels (same perm. across channels),mean of 2 seeds,9500,0.8187312393188477
+random pixels (same perm. across channels),mean of 2 seeds,9750,0.820115982055664
+random pixels (same perm. across channels),mean of 2 seeds,10000,0.6909289474487306
+random pixels (same perm. across channels),mean of 2 seeds,10250,0.7063330650329589
+random pixels (same perm. across channels),mean of 2 seeds,10500,0.641286720275879
+random pixels (same perm. across channels),mean of 2 seeds,10750,0.5802412490844726
+random pixels (same perm. across channels),mean of 2 seeds,11000,0.5802247695922851
+random pixels (same perm. across channels),mean of 2 seeds,11250,0.49090822219848634
+random pixels (same perm. across channels),mean of 2 seeds,11500,0.47226959609985353
+random pixels (same perm. across channels),mean of 2 seeds,11750,0.46878034591674805
+random pixels (same perm. across channels),mean of 2 seeds,12000,0.3583607330322266
+random pixels (same perm. across channels),mean of 2 seeds,12250,0.3586407356262207
+random pixels (same perm. across channels),mean of 2 seeds,12500,0.33622360038757326
+random pixels (same perm. across channels),mean of 2 seeds,12750,0.2626651859283447
+random pixels (same perm. across channels),mean of 2 seeds,13000,0.27308717918395997
+random pixels (same perm. across channels),mean of 2 seeds,13250,0.22402672576904298
+random pixels (same perm. across channels),mean of 2 seeds,13500,0.18524148082733155
+random pixels (same perm. across channels),mean of 2 seeds,13750,0.18128276824951173
+random pixels (same perm. across channels),mean of 2 seeds,14000,0.13444827556610106
+random pixels (same perm. across channels),mean of 2 seeds,14250,0.12298467254638672
+random pixels (same perm. across channels),mean of 2 seeds,14500,0.11179156112670899
+random pixels (same perm. across channels),mean of 2 seeds,14750,0.08518937492370605
+random pixels (same perm. across channels),mean of 2 seeds,15000,0.07786012649536134
+random pixels (same perm. across channels),mean of 2 seeds,15250,0.06510358142852783
+random pixels (same perm. across channels),mean of 2 seeds,15500,0.03962056469917297
+random pixels (same perm. across channels),mean of 2 seeds,15750,0.0349604811668396
+random pixels (same perm. across channels),mean of 2 seeds,16000,0.025014175295829777
+random pixels (same perm. across channels),mean of 2 seeds,16250,0.017112444281578064
+random pixels (same perm. across channels),mean of 2 seeds,16500,0.013485134601593018
+random pixels (same perm. across channels),mean of 2 seeds,16750,0.009663351714611053
+random pixels (same perm. across channels),mean of 2 seeds,17000,0.00900573205947876
+random pixels (same perm. across channels),mean of 2 seeds,17250,0.007108168184757234
+random pixels (same perm. across channels),mean of 2 seeds,17500,0.005103537499904633
+random pixels (same perm. across channels),mean of 2 seeds,17750,0.0052464622557163235
+random pixels (same perm. across channels),mean of 2 seeds,18000,0.004153404533863068
+random pixels (same perm. across channels),mean of 2 seeds,18250,0.0037516757845878603
+random pixels (same perm. across channels),mean of 2 seeds,18500,0.0030922134369611737
+random pixels (same perm. across channels),mean of 2 seeds,18750,0.0028755201101303097
+random pixels (same perm. across channels),mean of 2 seeds,19000,0.0026314627379179006
+random pixels (same perm. across channels),mean of 2 seeds,19250,0.002495621725916862
+random pixels (same perm. across channels),mean of 2 seeds,19500,0.00218059466779232
+random pixels (same perm. across channels),mean of 2 seeds,19750,0.002414559304714203
+random pixels (same perm. across channels),mean of 2 seeds,20000,0.002349300310015678
+random pixels (same perm. across channels),mean of 2 seeds,20250,0.0019247527271509168
+random pixels (same perm. across channels),mean of 2 seeds,20500,0.001946918159723282
+random pixels (same perm. across channels),mean of 2 seeds,20750,0.0018833019584417344
+random pixels (same perm. across channels),mean of 2 seeds,21000,0.001873977154493332
+random pixels (same perm. across channels),mean of 2 seeds,21250,0.0018430926129221917
+random pixels (same perm. across channels),mean of 2 seeds,21500,0.0016959705129265786
+random pixels (same perm. across channels),mean of 2 seeds,21750,0.0014605494290590285
+random pixels (same perm. across channels),mean of 2 seeds,22000,0.001439405009150505
+random pixels (same perm. across channels),mean of 2 seeds,22250,0.001375011309981346
+random pixels (same perm. across channels),mean of 2 seeds,22500,0.0014098877161741257
+random pixels (same perm. across channels),mean of 2 seeds,22750,0.0013103465139865874
+random pixels (same perm. across channels),mean of 2 seeds,23000,0.001282186843454838
+random pixels (same perm. across channels),mean of 2 seeds,23250,0.0012811046168208122
+random pixels (same perm. across channels),mean of 2 seeds,23500,0.0012550560906529427
+random pixels (same perm. across channels),mean of 2 seeds,23750,0.001209537737071514
+random pixels (same perm. across channels),mean of 2 seeds,24000,0.0012078875452280046
+random pixels (same perm. across channels),mean of 2 seeds,24250,0.0012612997740507126
+random pixels (same perm. across channels),mean of 2 seeds,24500,0.0011968780532479288
+random pixels (same perm. across channels),mean of 2 seeds,24750,0.0011965656504034996
+random pixels (same perm. across channels),mean of 2 seeds,25000,0.0010929410606622695

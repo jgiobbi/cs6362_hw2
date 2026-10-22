@@ -1,0 +1,6 @@
+*.pdf
+accre_command.txt
+logs/
+data/
+paper1_dl_generalization/
+paper2_sgd/
